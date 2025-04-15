@@ -20,7 +20,7 @@ use App\Http\Controllers\AdminProfileController;
 
 // Public routes
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/products/fulllist');
 });
 
 // Authentication routes
